@@ -15,5 +15,5 @@
 <pre>
 注：支持的文件类型 "doc", "docx", "xls", "xlsx", "ppt", "pptx", "txt"
 
-    文件最大为2M
+    上传的文件不能超过10M
 </pre>

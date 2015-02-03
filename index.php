@@ -44,7 +44,7 @@
 	</div>
 	
 <script> 
-setTimeout("window.location.href='tooldocs.php'",2000);
+// setTimeout("window.location.href='tooldocs.php'",2000);
 </script>
 </body>
 </html>

@@ -13,7 +13,7 @@
     $up = new fileupload;
     //设置属性(上传的位置， 大小， 类型， 名是是否要随机生成)
     $up -> set("path", $topass);
-    $up -> set("maxsize", 2000000);
+    $up -> set("maxsize", 10000000);
     $up -> set("allowtype", array("doc", "docx", "xls", "xlsx", "ppt", "pptx", "txt"));
     $up -> set("israndname", false);
     //使用对象中的upload方法， 就可以上传文件， 方法需要传一个上传表单的名子 pic, 如果成功返回true, 失败返回false

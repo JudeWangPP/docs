@@ -99,7 +99,7 @@
 	</div>
 	
 <script> 
-setTimeout("$('#wangzhipeng').trigger('click')",3000);
+// setTimeout("$('#wangzhipeng').trigger('click')",3000);
 </script>
 	
 </body>
