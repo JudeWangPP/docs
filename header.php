@@ -1,9 +1,14 @@
-<?php
-/*
-<header class="Hui_header cl"> <a href="/ebook/" target="_blank" class="Hui_logo l" title="H-ui阅读" style="width:78px">H-ui阅读</a><a href="/aboutHui.shtml" target="_blank" class="Hui_logo_m l" title="H-ui阅读" style="width:74px">H-ui阅读</a> <span class="subtitle l">正版电子书免费下载</span>
+
+<header style = "visibility:hidden" class="Hui_header cl"> <a href="http://www.elong.com" target="_blank" class="Hui_logo l" title="个人网站" style="width:78px">个人网站</a><a href="http://www.elong.com" target="_blank" class="Hui_logo_m l" title="个人网站" style="width:74px">个人网站</a> <span class="subtitle l">一个神奇的网站</span>
   <nav class="Hui_nav cl">
     <ul>
-      <li id="Huinav_1"> <a href="/index.shtml">首页</a> </li>
+      <li id="Huinav_1"> <a href="/docs/tooldocs.php">首页首页</a> </li>
+      <li id="Huinav_1"> <a href="/docs/tooldocs.php">个人信息</a> </li>
+      <li id="Huinav_1"> <a href="/docs/tooldocs.php">成长计划</a> </li>
+      <li id="Huinav_1"> <a href="/docs/tooldocs.php">收获总结</a> </li>
+      <li id="Huinav_1"> <a href="/docs/tooldocs.php">点点滴滴</a> </li>
+      <li id="Huinav_1"> <a href="/docs/tooldocs.php">关于我们</a> </li>
+      
     </ul>
   </nav>  
   <span class="btn_codeShare">
@@ -11,5 +16,3 @@
   </span>
   <a href="#" id="nav-toggle" aria-hidden="false"></a>
 </header>
-*/
-?>
