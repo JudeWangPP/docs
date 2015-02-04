@@ -1,3 +1,4 @@
+<meta charset="utf-8">
 <h2>上传文档</h2>
 <form action="upload.php?mulu=tooldocs" method="post" enctype="multipart/form-data">
 	选择上传的模块：

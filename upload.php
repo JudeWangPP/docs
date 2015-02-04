@@ -1,3 +1,4 @@
+<meta charset="utf-8">
 <?php
     //包含一个文件上传类中的上传类
     include "fileupload.class.php";
