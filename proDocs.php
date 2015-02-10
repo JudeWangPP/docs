@@ -36,7 +36,7 @@
 				<span class="c_gray en">&gt;</span>
 				<span class="c_gray">常用文档</span>
 				<span class="c_gray en">&gt;</span>
-				<span class="c_gray">工具说明文档</span>
+				<span class="c_gray">项目相关资料</span>
 				<span class="r"><a class="maincolor" href="upfile.php" target="_black">上传文件</a>　</span>
 			</nav>
 <!-- 			开始正文内容			 -->
@@ -57,7 +57,7 @@
 					<dl>
 					<?php 
 						require_once 'classFileType.php';
-						$dir=TOOLDOCS;
+						$dir=PRODOCS;
 						if(is_dir($dir)){
 							$sh = opendir($dir);
 							$list = new classFileType();

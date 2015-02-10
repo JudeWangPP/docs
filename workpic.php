@@ -14,8 +14,7 @@
 	<link href="static/h-ui/css/H-ui.yun.css?v" rel="stylesheet" type="text/css" />
 	<script type="text/javascript" src="Lib/jquery.min.js"></script>
 	<script type="text/javascript" src="static/h-ui/js/H-ui.js?v2013122601"></script>
-	<script type="text/javascript"
-	src="static/h-ui/js/common.js?v2013122601"></script>
+	<script type="text/javascript" src="static/h-ui/js/common.js?v2013122601"></script>
 	<!--[if IE 6]>
 	<script type="text/javascript" src="Lib/DD_belatedPNG_0.0.8a-min.js" ></script>
 	<script>DD_belatedPNG.fix('.pngfix,.icon,.list-icon');</script>
@@ -34,9 +33,9 @@
 			<nav class="Hui_breadcrumb">
 				<a class="maincolor" href="./">首页</a> 
 				<span class="c_gray en">&gt;</span>
-				<span class="c_gray">常用文档</span>
+				<span class="c_gray">照片＆影像</span>
 				<span class="c_gray en">&gt;</span>
-				<span class="c_gray">工具说明文档</span>
+				<span class="c_gray">工作照片</span>
 				<span class="r"><a class="maincolor" href="upfile.php" target="_black">上传文件</a>　</span>
 			</nav>
 <!-- 			开始正文内容			 -->
@@ -55,9 +54,9 @@
 						</div>
 					</header>
 					<dl>
-					<?php 
-						require_once 'classFileType.php';
-						$dir=TOOLDOCS;
+					<?php
+						require_once 'classFileType.php'; 
+						$dir=WORKPIC;
 						if(is_dir($dir)){
 							$sh = opendir($dir);
 							$list = new classFileType();
@@ -66,29 +65,6 @@
 									//做dir 干的事情
 								}else{
 									$list->listView($dir, $file);
-// 									echo "<dd class='item cl'>";
-// 									$altertime=filemtime($dir."\\".$file);
-// 									echo "<div class='col c2 c_gray' title='修改时间'><span>".date("Y-m-d H:i",$altertime)."</span></div>";
-// 									$filesize=filesize($dir."\\".$file);
-// 									$filesize=$filesize/1024/1024;
-// 									$filesize=round($filesize,2);
-// 									echo "<div class='col c3 c_gray' title='文件大小'><span>".$filesize."M</span></div>";
-// 									$value=explode('.',$file);
-// 									if ($value[count($value)-1] == 'docx'){
-// 										$icontype='doc';
-// 									}elseif($value[count($value)-1] == 'pptx' || $value[count($value)-1] == 'ppt' || $value[count($value)-1] == 'pps'){
-// 										$icontype='other';
-// 									}elseif($value[count($value)-1] == 'xlsx'){
-// 										$icontype='xls';
-// 									}elseif($value[count($value)-1] == 'vsd'){
-// 										$icontype='v';
-// 									}else{
-// 										$icontype=$value[count($value)-1];
-// 									}
-// 									$filedir = $dir."\\".iconv('gb2312','utf-8',$file);
-// 									echo "<div class='col c1'><span><i class='sprite-list-ic icon-".$icontype."'></i> <a href='".$filedir."' target='_blank'>".iconv('gb2312','utf-8',$file)."</a></span></div>";
-// 									echo "<div class='listeditbar'><a href='man.php?type=download&filedir=".$filedir."' target='_blank' class='btn radius btn-small btn-success'>下载到本地</a></div>";
-// 									echo "</dd>";
 								}
 							}
 							closedir($sh);
@@ -99,11 +75,6 @@
 			</div>
 <!-- 			正文内容结束			 -->
 		</section>
-	</div>
-	
-<script> 
-// setTimeout("$('#wangzhipeng').trigger('click')",3000);
-</script>
-	
+	</div>	
 </body>
 </html>

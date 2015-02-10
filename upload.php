@@ -4,10 +4,20 @@
     include "fileupload.class.php";
     require_once 'config.php';
     //设定上传目录.
-  	if ($_GET["mulu"] == 'tooldocs'){
+  	if ($_POST["mulu"] == 'tooldocs'){
   		$topass = TOOLDOCS;	
-  	}elseif ($_GET["mulu"] == 'prodocs'){
+  	}elseif ($_POST["mulu"] == 'prodocs'){
   		$topass = PRODOCS;	
+  	}elseif ($_POST["mulu"] == 'TBpic'){
+  		$topass = TBPIC;	
+  	}elseif ($_POST["mulu"] == 'workpic'){
+  		$topass = WORKPIC;	
+  	}elseif ($_POST["mulu"] == 'livepic'){
+  		$topass = LIVEPIC;	
+  	}elseif ($_POST["mulu"] == 'teamvideo'){
+  		$topass = TEAMVIDEO;	
+  	}elseif ($_POST["mulu"] == 'otherpic'){
+  		$topass = OTHERPIC;	
   	}else{
   		$topass = "D:\\laji";
   	}
@@ -15,7 +25,7 @@
     //设置属性(上传的位置， 大小， 类型， 名是是否要随机生成)
     $up -> set("path", $topass);
     $up -> set("maxsize", 10000000);
-    $up -> set("allowtype", array("doc", "docx", "xls", "xlsx", "ppt", "pptx", "txt"));
+    $up -> set("allowtype", array("doc", "docx", "xls", "xlsx", "ppt", "pptx", "txt", "jpg", "bmp", "png", "gif"));
     $up -> set("israndname", false);
     //使用对象中的upload方法， 就可以上传文件， 方法需要传一个上传表单的名子 pic, 如果成功返回true, 失败返回false
     if($up -> upload("file")) {

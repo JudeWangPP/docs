@@ -8,21 +8,21 @@
 			<dd>
 				<ul>
 					<li><a href="tooldocs.php">工具说明文档</a></li>
-					<li><a href="#">项目相关资料</a></li>
+					<li><a href="proDocs.php">项目相关资料</a></li>
 				</ul>
 			</dd>
 		</dl>
 		<dl id="menu_2">
 			<dt>
-				项目相关资料<b></b>
+				照片&影像<b></b>
 			</dt>
 			<dd>
 				<ul>
-					<li><a href="#">产品</a></li>
-					<li><a href="#">直连</a></li>
-					<li><a href="#">订单</a></li>
-					<li><a href="#">国际酒店</a></li>
-					<li><a href="#">其他</a></li>
+					<li><a href="TBpic.php">TB照片</a></li>
+					<li><a href="workpic.php">工作照片</a></li>
+					<li><a href="livepic.php">生活照片</a></li>
+					<li><a href="teamvideo.php">团队视频</a></li>
+					<li><a href="otherpic.php">其他照片</a></li>
 				</ul>
 			</dd>
 		</dl>
@@ -53,7 +53,7 @@
     	var url=window.location.href.split("/");
 		var pname=url[url.length-1];
 		for(var i=0;i<$("a").length;i++){
-			if($($("a")[i]).attr("href")==pname){
+			if($($("a")[i]).attr("href")==pname || $($("a")[i]).attr("href")+'#'==pname){
 				$($("a")[i]).parents("li").addClass("current");
 				$($("a")[i]).parents("dl").addClass("selected");
 			}
