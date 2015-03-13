@@ -2,6 +2,7 @@
  #SSH配置
  define("TOOLDOCS","D:\\elong\\HotelTestTeam\\files\\documents\\toolDocs");
  define("PRODOCS","D:\\elong\\HotelTestTeam\\files\\documents\\proDocs");
+ define("FRESHDOCS","D:\\elong\\HotelTestTeam\\files\\documents\\FreshRead");
  define("TBPIC","D:\\elong\\HotelTestTeam\\files\\teampicture\\TBpic");
  define("WORKPIC","D:\\elong\\HotelTestTeam\\files\\teampicture\\workpic");
  define("LIVEPIC","D:\\elong\\HotelTestTeam\\files\\teampicture\\livepic");

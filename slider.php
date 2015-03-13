@@ -9,6 +9,7 @@
 				<ul>
 					<li><a href="tooldocs.php">工具说明文档</a></li>
 					<li><a href="proDocs.php">项目相关资料</a></li>
+					<li><a href="freshReadDocs.php">新人阅读文档</a></li>
 				</ul>
 			</dd>
 		</dl>
