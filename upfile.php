@@ -6,6 +6,7 @@
 		<option disabled="disabled">－－常用文档－－</option>
 		<option value="tooldocs">工具说明文档</option>
 		<option value="prodocs">项目相关资料</option>
+		<option value="freshdocs">新人阅读文档</option>
 		<option disabled="disabled">－－照片影像－－</option>
 		<option value="TBpic">TB照片</option>
 		<option value="workpic">工作照片</option>

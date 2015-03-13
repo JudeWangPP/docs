@@ -8,6 +8,8 @@
   		$topass = TOOLDOCS;	
   	}elseif ($_POST["mulu"] == 'prodocs'){
   		$topass = PRODOCS;	
+  	}elseif ($_POST["mulu"] == 'freshdocs'){
+  		$topass = FRESHDOCS;	
   	}elseif ($_POST["mulu"] == 'TBpic'){
   		$topass = TBPIC;	
   	}elseif ($_POST["mulu"] == 'workpic'){

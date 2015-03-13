@@ -36,7 +36,7 @@
 				<span class="c_gray en">&gt;</span>
 				<span class="c_gray">常用文档</span>
 				<span class="c_gray en">&gt;</span>
-				<span class="c_gray">项目相关资料</span>
+				<span class="c_gray">新人阅读文档</span>
 				<span class="r"><a class="maincolor" href="upfile.php" target="_black">上传文件</a>　</span>
 			</nav>
 <!-- 			开始正文内容			 -->
