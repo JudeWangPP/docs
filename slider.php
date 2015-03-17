@@ -33,11 +33,13 @@
 			</dt>
 			<dd>
 				<ul>
-					<li><a href="#">PHP</a></li>
-					<li><a href="#">.NET</a></li>
-					<li><a href="#">JAVA</a></li>
-					<li><a href="#">数据库</a></li>
-					<li><a href="#">LINUX</a></li>
+					<li><a href="studytest.php">TEST</a></li>
+					<li><a href="studyphp.php">PHP</a></li>
+					<li><a href="studynet.php">.NET</a></li>
+					<li><a href="studyjava.php">JAVA</a></li>
+					<li><a href="studydatabase.php">DATABASE</a></li>
+					<li><a href="studylinux.php">LINUX</a></li>
+					<li><a href="studyother.php">OTHER</a></li>
 				</ul>
 			</dd>
 		</dl>

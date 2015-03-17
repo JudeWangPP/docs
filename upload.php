@@ -20,6 +20,20 @@
   		$topass = TEAMVIDEO;	
   	}elseif ($_POST["mulu"] == 'otherpic'){
   		$topass = OTHERPIC;	
+  	}elseif ($_POST["mulu"] == 'studytest'){
+  		$topass = STUDYTEST;	
+  	}elseif ($_POST["mulu"] == 'studyphp'){
+  		$topass = STUDYPHP;	
+  	}elseif ($_POST["mulu"] == 'studynet'){
+  		$topass = STUDYNET;	
+  	}elseif ($_POST["mulu"] == 'studyjava'){
+  		$topass = STUDYJAVA;	
+  	}elseif ($_POST["mulu"] == 'studydatabase'){
+  		$topass = STUDYDATABASE;	
+  	}elseif ($_POST["mulu"] == 'studylinux'){
+  		$topass = STUDYLINUX;	
+  	}elseif ($_POST["mulu"] == 'studyother'){
+  		$topass = STUDYOTHER;	
   	}else{
   		$topass = "D:\\laji";
   	}
@@ -27,7 +41,7 @@
     //设置属性(上传的位置， 大小， 类型， 名是是否要随机生成)
     $up -> set("path", $topass);
     $up -> set("maxsize", 10000000);
-    $up -> set("allowtype", array("doc", "docx", "xls", "xlsx", "ppt", "pptx", "txt", "jpg", "bmp", "png", "gif"));
+    $up -> set("allowtype", array("doc", "docx", "xls", "xlsx", "ppt", "pptx", "txt", "pdf", "jpg", "bmp", "png", "gif"));
     $up -> set("israndname", false);
     //使用对象中的upload方法， 就可以上传文件， 方法需要传一个上传表单的名子 pic, 如果成功返回true, 失败返回false
     if($up -> upload("file")) {
