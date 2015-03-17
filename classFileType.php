@@ -6,6 +6,11 @@ class classFileType {
 	 * @param string $file
 	 */
 	function listView($dir,$file){
+		$value=explode('.',$file);
+		if($value[count($value)-1] == 'db'){
+			//过滤一些文件格式
+		}else{
+			//开始处理正常文件格式
 		echo "<dd class='item cl'>";
 		$altertime=filemtime($dir."\\".$file);
 		echo "<div class='col c2 c_gray' title='修改时间'><span>".date("Y-m-d H:i",$altertime)."</span></div>";
@@ -106,4 +111,5 @@ EOF;
 	}
 }
 
+}
 ?>
