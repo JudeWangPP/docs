@@ -73,7 +73,8 @@ EOF;
 			$filedir = $dir."\\".iconv('gb2312','utf-8',$file);
 			$fp=fopen($dir."\\".$file,"r")or die("Can't open file");
 			$file_content=chunk_split(base64_encode(fread($fp,filesize($dir."\\".$file)))); //base64编码
-			$img='data:image/'.$filetype.';base64,'.$file_content;//合成图片的base64编码
+// 			$img='data:image/'.$filetype.';base64,'.$file_content;//合成图片的base64编码
+			$img='1';
 			fclose($fp);
 			
 			echo "<div class='col c1'><span><i class='sprite-list-ic icon-".$icontype."'></i> <a class='pic' href='#'>".iconv('gb2312','utf-8',$file)."</a><span style='display:none'>".$img."</span></span></div>";
