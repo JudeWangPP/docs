@@ -36,7 +36,7 @@
 			</nav>
 <!-- 			开始正文内容			 -->
 			<div class="dir-path cl pt-5 pb-5 pl-10 pr-10">
-				<div  style="background-image:url('images/book.jpg');width:100%;height:600px"></div>
+				<!-- div  style="background-image:url('images/tong.jpg');width:100%;height:600px"></div -->
 				<span class="l"><h1>　欢迎访问文档管理系统</h1></span>
 			</div>
 <!-- 			正文内容结束			 -->
