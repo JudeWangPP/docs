@@ -5,10 +5,11 @@
 			$.layer({
 				type: 1,
 				title: false, //不显示默认标题栏
+				closeBtn: false, //不显示关闭按钮
 				shadeClose: true,
 //		 		shade: [0], //不显示遮罩
 				area: ['500px', '500px'],
-				page: {html: '<img width="500px" height="500px" src="'+ data +'">'}
+				page: {html: '<img height="500px" src="'+ data +'">'}
 			});
 		});
 	})
