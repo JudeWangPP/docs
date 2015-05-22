@@ -21,6 +21,7 @@
 	<script>DD_belatedPNG.fix('.pngfix,.icon,.list-icon');</script>
 	<![endif]-->
 	<script type="text/javascript" src="Lib/stickUp.min.js"></script>
+
 	<title>工具说明文档</title>
 </head>
 <body>
@@ -100,10 +101,8 @@
 <!-- 			正文内容结束			 -->
 		</section>
 	</div>
-	
-<script> 
-// setTimeout("$('#wangzhipeng').trigger('click')",3000);
-</script>
+<script type="text/javascript" src="layer/layer.min.js"></script>
+<script type="text/javascript" src="Lib/my.js"></script>
 	
 </body>
 </html>

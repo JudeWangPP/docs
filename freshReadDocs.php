@@ -101,9 +101,8 @@
 		</section>
 	</div>
 	
-<script> 
-// setTimeout("$('#wangzhipeng').trigger('click')",3000);
-</script>
+<script type="text/javascript" src="layer/layer.min.js"></script>
+<script type="text/javascript" src="Lib/my.js"></script>
 	
 </body>
 </html>
