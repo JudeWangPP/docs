@@ -1,6 +1,6 @@
 	//<!-- 点击图片预览所需js -->
 	$('a[class=pic]').unbind('click').click(function(e){
-		var imgcontent = $(this).attr('filedir'); + $(this).html();
+		var imgcontent = $(this).attr('filedir');
 		$.get("man.php?type=imgcontent&filedir=" + imgcontent, function(data){
 			$.layer({
 				type: 1,
